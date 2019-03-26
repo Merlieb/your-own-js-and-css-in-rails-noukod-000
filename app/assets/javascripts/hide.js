@@ -1,3 +1,3 @@
 function hideWhenClicked() {
-  const $hidden=$("#hide_this").hide()
+  const $hidden=$("#hide_this").style.display="none";
 }
